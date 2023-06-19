@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.ust{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(turkcelarkaplan.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.cubuk{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0; 
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    cursor: pointer;
+    border-radius: 75%;
+
+}
+
+.cubuk ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 25px;
+
+}
+
+.cubuk ul li a{
+    text-decoration: none;
+    color: white ;
+}
+
+.cubuk ul li a:hover{
+    box-shadow: 5px 10px rgb(9, 51, 204);
+}
+
+.icerik{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    color: white;   
+    text-align: center;
+
+}
+
+.icerik h1{
+    font-size: 60px;
+}
+
+.icerik p{
+    margin: 40px auto;
+}
+
+.form{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+}
+
+.iletisimformu{
+    width: 520px;
+    margin: auto;
+}
+
+.iletisimformu label,
+.iletisimformu input,
+.iletisimformu select{
+    display: block;
+    width: 100%;
+    margin-top: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.iletisimformu button{
+    display: block;
+    margin-top: 35px;
+}
+
+.iletisimformu input,
+.iletisimformu select{
+    border: 2px solid blue;
+    padding: 10px 15px; 
+}
+
+.ilebg{
+    background-position: center;
+    background-size: cover ;
+}
+
+.form{
+    padding-top: 2%;
+}
+
+label{
+    font-size: 25px;
+    color: blue;
+}
+
+.ulaşma2{
+    width: 180px;
+    padding: 15px 0;
+    border-radius: 20px;
+}
